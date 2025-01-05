@@ -1,0 +1,105 @@
+:root{
+  --color: #ffffff;
+}
+button { 
+  padding: 10px 20px;
+  font-size: 1em;
+  color: rgb(0, 0, 0); 
+  background-color: rgb(52, 152, 219);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; 
+  
+    }
+
+video{
+  max-width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+body{
+  display: inline-block;
+}
+nav h1{
+  display: inline;
+  
+}
+nav a{
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+#a1{
+  margin-left: 675px;
+}
+h1{
+  color: azure;
+}
+.navh1{
+  color:  blue;
+  text-transform: uppercase;
+}
+.pdiv{
+  color: rgb(34, 34, 255);
+  font-weight: 700;
+}
+.text_in_card{
+  color: blue;
+  font-weight: 900;
+}
+.cardholder{  
+  text-align: center;
+  box-shadow: 60px;
+  background-color: rgb(252, 196, 127);
+  border-radius: 50;
+  
+}
+.card{
+  padding: 2px;
+  background-color: beige;
+}
+#skills{
+  margin-top: 401px;
+}
+#projects{
+  margin-top: 30px;
+}
+.active{
+  display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+body h1{
+  color: var(--color);
+}
+body h2{
+  color: var(--color);
+}
+body h3{
+  color: var(--color);
+}
+body h4{
+  color: var(--color);
+}
+body h5{
+  color: var(--color);
+}
+body h6{
+  color: var(--color);
+}
+body p{
+  color: var(--color);
+}
